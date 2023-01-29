@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+#navbar {
+    top: -30px;
+}
+
+.active {
+    border-bottom: 2px solid white;
+    animation: active_navbar 0.5s linear;
+}
+
+.jumbotron {
+    padding-top: 2rem;
+    background-color: #e2edff;
+    margin-top: 55px;
+}
+
+.about, .education, .project, .contact {
+    background-color: #e2edff;
+}
+
+.bg_purple {
+    background-color: purple;
+}
+
+.line_connector {
+    width: 5px;
+    height: 10vh;
+}
+
+.go-up {
+    padding: 10px 15px;
+    margin: 0px 20px 20px 0px;
+    border-radius: 50%;
+}
+
+.bi-arrow-up-circle {
+    color: white;
+}
